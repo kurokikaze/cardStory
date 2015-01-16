@@ -1,5 +1,5 @@
 angular
-  .module('example')
+  .module('cardstory')
   .controller('LearnMoreController', function($scope, supersonic) {
 
     $scope.navbarTitle = "Learn More";

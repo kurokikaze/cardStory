@@ -1,4 +1,4 @@
-var app = angular.module('example', []);
+var app = angular.module('cardstory', []);
 app.factory('statsService', function() {
   var starsService;
   var stats = {

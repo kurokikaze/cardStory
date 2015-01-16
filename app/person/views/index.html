@@ -1,0 +1,25 @@
+<div class="padding" ng-controller="IndexController">
+  <super-navbar>
+    <super-navbar-title>
+      Персонаж
+    </super-navbar-title>
+  </super-navbar>
+
+  <div class="heading"><span>Персонаж</span></div>
+	
+  <div class="person-name" ng-bind="name">--</div>
+  
+  <span>Параметры</span>
+  <ul id="main-stats">
+	<li class="watchful" ng-bind="watchful"></li>
+	<li class="dangerous" ng-bind="dangerous"></li>
+	<li class="shadowy" ng-bind="shadowy"></li>
+	<li class="persuasive" ng-bind="persuasive"></li>
+  </ul>
+
+  <p>Дополнительные параметры</p>
+
+  <ul class="additional-stats">
+	<li class="home"><span class="param-name">Home:</span><span class="param-value">Wanderer</span></ul>
+  </ul>
+</div>

@@ -7,31 +7,35 @@ module.exports =
     {
       title: "История"
       id: "story"
-      location: "example#story"
+      location: "cardstory#story"
     }
     {
       title: "Персонаж"
       id: "person"
-      location: "example#person"
+      location: "person#index"
     }
     {
       title: "Настройки"
       id: "settings"
-      location: "example#settings"
+      location: "cardstory#settings"
     }
   ]
 
   rootView:
-    location: "example#story"
+    location: "cardstory#story"
 
   preloads: [
     {
       id: "open-card"
-      location: "example#open-card"
+      location: "cardstory#open-card"
+    }
+    {
+      id: "person"
+      location: "cardstory#person"
     }
     {
       id: "card-resolution"
-      location: "example#card-resolution"
+      location: "cardstory#card-resolution"
     }
   ]
 
