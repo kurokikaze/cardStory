@@ -1,0 +1,23 @@
+.supersonic-navbar-mock {
+  background-color: #00B5FF !important;
+  text-align: center;
+  font-weight: 600;
+}
+
+.card {
+	padding: 7px;
+	width: 98px;
+	height: 123px;
+	border: 1px solid #ccc;
+	
+}
+
+.card-tiger  .image {
+	width: 82px;
+	height: 107px;
+	background-image: url(/content/tiger.png);
+}
+
+.cards-in-hand .card {
+	float: left;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "cardStory",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-steroids": "1.x"
+  }
+}
